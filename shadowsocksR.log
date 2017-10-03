@@ -1,0 +1,150 @@
+[3;J[H[2J
+#############################################################
+# One click Install ShadowsocksR Server                     #
+# Intro: https://shadowsocks.be/9.html                      #
+# Author: Teddysun <i@teddysun.com>                         #
+# Github: https://github.com/breakwa11/shadowsocks          #
+#############################################################
+
+Please input password for ShadowsocksR:
+(Default password: teddysun.com):
+---------------------------
+password = jiaoSH
+---------------------------
+
+Please input port for ShadowsocksR [1-65535]:
+(Default port: 8989):
+---------------------------
+port = 443
+---------------------------
+
+
+Press any key to start...or Press Ctrl+C to cancel
+Hit:1 http://asia-east1.gce.archive.ubuntu.com/ubuntu xenial InRelease
+Get:2 http://asia-east1.gce.archive.ubuntu.com/ubuntu xenial-updates InRelease [102 kB]
+Get:3 http://asia-east1.gce.archive.ubuntu.com/ubuntu xenial-backports InRelease [102 kB]
+Hit:4 http://archive.canonical.com/ubuntu xenial InRelease
+Get:5 http://security.ubuntu.com/ubuntu xenial-security InRelease [102 kB]
+Fetched 306 kB in 1s (225 kB/s)
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+automake is already the newest version (1:1.15-4ubuntu1).
+build-essential is already the newest version (12.1ubuntu2).
+cpio is already the newest version (2.11+dfsg-5ubuntu1).
+gcc is already the newest version (4:5.3.1-1ubuntu1).
+make is already the newest version (4.1-6).
+perl is already the newest version (5.22.1-9).
+python is already the newest version (2.7.11-1).
+python-dev is already the newest version (2.7.11-1).
+unzip is already the newest version (6.0-20ubuntu1).
+python-m2crypto is already the newest version (0.22.6~rc4-1ubuntu1).
+swig is already the newest version (3.0.8-0ubuntu3).
+curl is already the newest version (7.47.0-1ubuntu2.2).
+wget is already the newest version (1.17.1-1ubuntu1.2).
+python-pip is already the newest version (8.1.1-2ubuntu0.4).
+0 upgraded, 0 newly installed, 0 to remove and 21 not upgraded.
+--2017-06-02 06:29:26--  https://github.com/jedisct1/libsodium/releases/download/1.0.12/libsodium-1.0.12.tar.gz
+Resolving github.com (github.com)... 192.30.253.113, 192.30.253.112
+Connecting to github.com (github.com)|192.30.253.113|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://github-production-release-asset-2e65be.s3.amazonaws.com/7710647/84828ba8-07cf-11e7-815a-bd618ee0f1c2?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20170602%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20170602T062926Z&X-Amz-Expires=300&X-Amz-Signature=a77f680aefb719ac6cd05caffc5224d8bc7ad3a2b211f4a8bdc5d8b631f1db47&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Dlibsodium-1.0.12.tar.gz&response-content-type=application%2Foctet-stream [following]
+--2017-06-02 06:29:26--  https://github-production-release-asset-2e65be.s3.amazonaws.com/7710647/84828ba8-07cf-11e7-815a-bd618ee0f1c2?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20170602%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20170602T062926Z&X-Amz-Expires=300&X-Amz-Signature=a77f680aefb719ac6cd05caffc5224d8bc7ad3a2b211f4a8bdc5d8b631f1db47&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Dlibsodium-1.0.12.tar.gz&response-content-type=application%2Foctet-stream
+Resolving github-production-release-asset-2e65be.s3.amazonaws.com (github-production-release-asset-2e65be.s3.amazonaws.com)... 54.231.81.112
+Connecting to github-production-release-asset-2e65be.s3.amazonaws.com (github-production-release-asset-2e65be.s3.amazonaws.com)|54.231.81.112|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1887284 (1.8M) [application/octet-stream]
+Saving to: ‘libsodium-1.0.12.tar.gz’
+
+     0K .......... .......... .......... .......... ..........  2% 32.4K 55s
+    50K .......... .......... .......... .......... ..........  5% 34.3K 52s
+   100K .......... .......... .......... .......... ..........  8% 49.9K 45s
+   150K .......... .......... .......... .......... .......... 10% 50.1K 41s
+   200K .......... .......... .......... .......... .......... 13% 50.0K 38s
+   250K .......... .......... .......... .......... .......... 16% 63.3K 35s
+   300K .......... .......... .......... .......... .......... 18% 66.7K 32s
+   350K .......... .......... .......... .......... .......... 21% 66.7K 30s
+   400K .......... .......... .......... .......... .......... 24% 66.6K 28s
+   450K .......... .......... .......... .......... .......... 27% 70.7K 26s
+   500K .......... .......... .......... .......... .......... 29% 66.7K 25s
+   550K .......... .......... .......... .......... .......... 32% 92.7K 23s
+   600K .......... .......... .......... .......... .......... 35% 70.4K 22s
+   650K .......... .......... .......... .......... .......... 37% 66.7K 20s
+   700K .......... .......... .......... .......... .......... 40% 92.8K 19s
+   750K .......... .......... .......... .......... .......... 43% 66.7K 18s
+   800K .......... .......... .......... .......... .......... 46%  100K 17s
+   850K .......... .......... .......... .......... .......... 48%  100K 15s
+   900K .......... .......... .......... .......... .......... 51%  100K 14s
+   950K .......... .......... .......... .......... .......... 54%  100K 13s
+  1000K .......... .......... .......... .......... .......... 56% 92.5K 12s
+  1050K .......... .......... .......... .......... .......... 59% 74.7K 11s
+  1100K .......... .......... .......... .......... .......... 62%  100K 11s
+  1150K .......... .......... .......... .......... .......... 65%  100K 10s
+  1200K .......... .......... .......... .......... .......... 67%  100K 9s
+  1250K .......... .......... .......... .......... .......... 70%  100K 8s
+  1300K .......... .......... .......... .......... .......... 73%  152K 7s
+  1350K .......... .......... .......... .......... .......... 75%  109K 6s
+  1400K .......... .......... .......... .......... .......... 78%  100K 5s
+  1450K .......... .......... .......... .......... .......... 81%  109K 5s
+  1500K .......... .......... .......... .......... .......... 84%  100K 4s
+  1550K .......... .......... .......... .......... .......... 86%  152K 3s
+  1600K .......... .......... .......... .......... .......... 89%  109K 3s
+  1650K .......... .......... .......... .......... .......... 92%  108K 2s
+  1700K .......... .......... .......... .......... .......... 94%  173K 1s
+  1750K .......... .......... .......... .......... .......... 97%  108K 1s
+  1800K .......... .......... .......... .......... ...       100%  150K=24s
+
+2017-06-02 06:29:51 (78.4 KB/s) - ‘libsodium-1.0.12.tar.gz’ saved [1887284/1887284]
+
+--2017-06-02 06:29:51--  https://github.com/shadowsocksr/shadowsocksr/archive/manyuser.zip
+Resolving github.com (github.com)... 192.30.253.113, 192.30.253.112
+Connecting to github.com (github.com)|192.30.253.113|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://codeload.github.com/shadowsocksr/shadowsocksr/zip/manyuser [following]
+--2017-06-02 06:29:52--  https://codeload.github.com/shadowsocksr/shadowsocksr/zip/manyuser
+Resolving codeload.github.com (codeload.github.com)... 192.30.253.121, 192.30.253.120
+Connecting to codeload.github.com (codeload.github.com)|192.30.253.121|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 145180 (142K) [application/zip]
+Saving to: ‘manyuser.zip’
+
+     0K .......... .......... .......... .......... .......... 35%  143K 1s
+    50K .......... .......... .......... .......... .......... 70%  287K 0s
+   100K .......... .......... .......... .......... .         100% 23.2M=0.5s
+
+2017-06-02 06:29:53 (270 KB/s) - ‘manyuser.zip’ saved [145180/145180]
+
+--2017-06-02 06:29:53--  https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocksR-debian
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 151.101.0.133, 151.101.64.133, 151.101.128.133, ...
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|151.101.0.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1829 (1.8K) [text/plain]
+Saving to: ‘/etc/init.d/shadowsocks’
+
+     0K .                                                     100%  459M=0s
+
+2017-06-02 06:29:53 (459 MB/s) - ‘/etc/init.d/shadowsocks’ saved [1829/1829]
+
+2017-06-02 06:29:54 INFO     util.py:85 loading libcrypto from libcrypto.so.1.0.0
+2017-06-02 06:29:54 INFO     shell.py:72 ShadowsocksR 3.3.2 2017-05-20
+loaded collections.OrderedDict
+IPv6 support
+Starting ShadowsocksR success
+[3;J[H[2J
+Congratulations, ShadowsocksR install completed!
+Server IP: [41;37m 130.211.251.59 [0m
+Server Port: [41;37m 443 [0m
+Password: [41;37m jiaoSH [0m
+Local IP: [41;37m 127.0.0.1 [0m
+Local Port: [41;37m 1080 [0m
+Protocol: [41;37m origin [0m
+obfs: [41;37m plain [0m
+Encryption Method: [41;37m aes-256-cfb [0m
+
+Welcome to visit:https://shadowsocks.be/9.html
+If you want to change protocol & obfs, please visit reference URL:
+https://github.com/breakwa11/shadowsocks-rss/wiki/Server-Setup
+
+Enjoy it!
+
